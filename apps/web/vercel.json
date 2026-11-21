@@ -1,8 +1,20 @@
 {
   "rewrites": [
-    { "source": "/v1/:path*", "destination": "https://staying-persons-munich-nato.trycloudflare.com/v1/:path*" },
-    { "source": "/t/:path*", "destination": "https://staying-persons-munich-nato.trycloudflare.com/t/:path*" },
-    { "source": "/u/:path*", "destination": "https://staying-persons-munich-nato.trycloudflare.com/u/:path*" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/v1/:path*",
+      "destination": "https://api-production-96b3e41c.up.railway.app/v1/:path*"
+    },
+    {
+      "source": "/t/:path*",
+      "destination": "https://api-production-96b3e41c.up.railway.app/t/:path*"
+    },
+    {
+      "source": "/u/:path*",
+      "destination": "https://api-production-96b3e41c.up.railway.app/u/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
